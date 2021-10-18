@@ -1,0 +1,751 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8" />
+        <title>Naga Esports Association</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Esports in nagaland" />
+        <meta name="keywords" content="esports, gaming, gamers, onlinegames, digitalgames," />
+        <meta name="author" content="nagaesportsassociation" />
+        <meta name="email" content="director@nagaesports.in" />
+        <meta name="website" content="" />
+        <meta name="Version" content="v1.0.0" />
+        <!-- favicon -->
+        <link href="{% static 'images/favicon- (1).ico' %}" rel="shortcut icon">
+        <!-- Bootstrap -->
+        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
+        <link href="{% static 'css/tiny-slider.css' %}" rel="stylesheet" type="text/css" />
+        <link href="{% static 'css/tobii.min.css' %}" rel="stylesheet" type="text/css" />
+        <link href="{% static 'css/materialdesignicons.min.css' %}" rel="stylesheet" type="text/css" />
+        <link href="{% static 'css/line.css' %}" rel="stylesheet" />
+        <!-- Main Css -->
+        <link href="{% static 'css/style.min.css' %}" rel="stylesheet" type="text/css" id="theme-opt" />
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+      <script type="text/javascript">
+$(document).ready(function () {
+    // Handler for .ready() called.
+    $('html, body').animate({
+        scrollTop: $('#scroll1').offset().top
+    }, 'slow');
+});
+
+      </script>
+
+    </head>
+
+    <body>
+        <!-- TAGLINE START-->
+        <div class="tagline bg-white">
+            <div class="container">                
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <ul class="list-unstyled mb-0">
+                                <li class="list-inline-item mb-0"><a href="javascript:void(0)" class="text-muted fw-normal"><i data-feather="mail" class="fea icon-sm text-primary"></i> director@nagaesports.in</a></li>
+                                <li class="list-inline-item mb-0 ms-3"><a href="javascript:void(0)" class="text-muted fw-normal"><i data-feather="map-pin" class="fea icon-sm text-primary"></i> Ace Apartment, 1G First Floor, Church Road Dimapur, Nagaland </a></li>
+                            </ul>
+
+                            <ul class="list-unstyled social-icon tagline-social mb-0">
+                                <li class="list-inline-item mb-0"><a href="javascript:void(0)"><i class="uil uil-facebook-f h6 mb-0"></i></a></li>
+                                <li class="list-inline-item mb-0"><a href="javascript:void(0)"><i class="uil uil-instagram h6 mb-0"></i></a></li>
+                                <li class="list-inline-item mb-0"><a href="javascript:void(0)"><i class="uil uil-twitter h6 mb-0"></i></a></li>
+                                <li class="list-inline-item mb-0"><a href="javascript:void(0)"><i class="uil uil-linkedin h6 mb-0"></i></a></li>
+                            </ul><!--end icon-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </div><!--end tagline-->
+        <!-- TAGLINE END-->
+
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky tagline-height">
+            <div class="container">
+                <!-- Logo container-->
+                <a class="logo" href="index.html">
+                    <img src="{% static 'images/logo-dark.png' %}" class="l-dark" height="150" alt="">
+                    <img src="{% static 'images/logo-light.png' %}" class="l-light" height="150" alt="">
+                </a>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+
+
+                <div id="navigation">
+                    <!-- Navigation Menu-->
+                    <ul class="navigation-menu nav-right nav-light">
+                        <li><a href="#" class="sub-menu-item">Home</a></li>
+                        <li><a href="#about01">About Us</a></li>
+                        <li><a href="#president01">President Messeage</a></li>
+                        <li><a href="#gallery01">Gallery</a></li>
+                        <li><a href="#contact01">Contact us</a></li>
+                    </ul>
+                </div>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Start Hero -->
+        <div class="bg-home zoom-image d-flex align-items-center">
+            <div class="bg-overlay image-wrap" style="background: url('/static/images/bg/finance01.jpg') center center;"></div>
+            <div class="bg-overlay bg-linear-gradient"></div>
+            <div class="container">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-12">
+                        <div class="title-heading text-center">
+                            <h4 class="display-2 fw-bold text-white">NAGA ESPORTS <br> Association</h4>
+                            <p class="para-desc mx-auto text-white-50">Our passion is to help create a community for esports enthusiast where they can learn and grow, and offer a space for recreation, cultural and sporting activities.</p>
+                            <div class="mt-4 pt-2">
+                                <a href="javascript:void(0)" class="btn btn-primary m-1">Contact us</a>
+                                <!-- <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="btn btn-icon btn-pills btn-primary m-1 lightbox"><i data-feather="video" class="icons"></i></a><span class="text-light small align-middle ms-1">Watch Now</span> -->
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </div><!--end slide-->
+        <!-- End Hero -->
+
+       <!-- Start feature -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="features feature-primary border-0 d-flex">
+                            <div class="fea-icon rounded-circle bg-light shadow icon">
+                                <i class="uil uil-airplay"></i>
+                            </div>
+
+                            <div class="content flex-1 ms-3">
+                                <a href="page-single-service.html" class="title h5 text-dark">Our Mission</a>
+                                <p class="text-muted mt-2 mb-0">We strive to provide the best service for esports enthusiast to garner experience and exposure. Nagaland Esports Association is dedicated to delivering an effective and efficient platform for gamers to go professional.
+</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="features feature-primary border-0 d-flex">
+                            <div class="fea-icon rounded-circle bg-light shadow icon">
+                                <i class="uil uil-eye"></i>
+                            </div>
+
+                            <div class="content flex-1 ms-3">
+                                <a href="page-single-service.html" class="title h5 text-dark">Our Vision</a>
+                                <p class="text-muted mt-2 mb-0">To create a space where creative minds can come together and built a captivating world.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                        <div class="features feature-primary border-0 d-flex">
+                            <div class="fea-icon rounded-circle bg-light shadow icon">
+                                <i class="uil uil-tachometer-fast-alt"></i>
+                            </div>
+
+                            <div class="content flex-1 ms-3">
+                                <a href="page-single-service.html" class="title h5 text-dark">Our Believe</a>
+                                <p class="text-muted mt-2 mb-0">We believe in helping the gaming community gain experience, and exposure and also get them the acceptance in choosing esports as a career option.  With proper guidance and the support which our platform offers, we hope to guide them towards a successful future.</p>
+                            </div>
+                        </div>
+                        <div id="about01"></div>
+                        </div>
+                        <!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <br>
+            <br>
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div id="president01"></div>
+                    <div class="col-lg-4">
+                        <ul class="nav nav-pills nav-justified flex-column bg-transparent mb-0" id="pills-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link rounded shadow active" id="pills-cloud-tab" data-bs-toggle="pill" href="#pills-cloud" role="tab" aria-controls="pills-cloud" aria-selected="false">
+                                    <div class="text-start p-4">
+                                        <h5>About NAGA Esports</h5>
+                                        <p class="mb-0 text-muted tab-para mt-3">Naga esports association is dedicated to helping young minds create ideas with emphasis on esports.</p>
+                                    </div>
+                                </a><!--end nav link-->
+                            </li><!--end nav item-->
+
+                            
+                            <li class="nav-item mt-4 pt-2">
+                                <a class="nav-link rounded shadow" id="pills-smart-tab" data-bs-toggle="pill" href="#pills-smart" role="tab" aria-controls="pills-smart" aria-selected="false">
+                                    <div class="text-start p-4">
+                                        <h5>Presidents Messeage</h5>
+                                        <p class="mb-0 text-muted tab-para mt-3">With the world advancing, we see unconventional careers and professions coming up in line with the passion of the newer generation.</p>
+                                    </div>
+                                </a><!--end nav link-->
+                            </li><!--end nav item-->
+                            
+                            <li class="nav-item mt-4 pt-2">
+                                <a class="nav-link rounded shadow" id="pills-apps-tab" data-bs-toggle="pill" href="#pills-apps" role="tab" aria-controls="pills-apps" aria-selected="false">
+                                    <div class="text-start p-4">
+                                        <h5>Esports in Nagaland</h5>
+                                        <p class="mb-0 text-muted tab-para mt-3">Nagaland see's itself moving up in the gaming community and might be on par with other professional gamers from countries which produce the best esports teams such as Korea, and Malaysia.</p>
+                                    </div>
+                                </a><!--end nav link-->
+                            </li><!--end nav item-->
+                        </ul><!--end nav pills-->
+                    </div><!--end col-->
+
+                    <div class="col-lg-8 mt-4 pt-2 mt-lg-0 pt-lg-0">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-cloud" role="tabpanel" aria-labelledby="pills-cloud-tab">
+                                <div class="card blog blog-image blog-primary shadow rounded overflow-hidden">
+                                    <div class="card-img">
+                                        <img src="{% static 'images/blog/10.jpg' %}" class="img-fluid" alt="">
+                                        <div class="card-overlay"></div>
+
+                                        <div class="position-absolute top-0 start-0 mt-3 ms-4">
+                                            <a href="javascript:void(0)" class="badge bg-light">About NAGA Esports</a>
+                                        </div>
+                                    </div>
+                                    <div class="content px-4">
+                                        <a href="blog-detail-one.html" class="h5 title d-block mb-0 text-white"></a>
+
+                                        <div class="d-flex author align-items-center mt-3">
+                                            <p class="para-desc text-white-50 mb-0">Founded in year 2021, Naga Esports Association has a strong will to form a platform for creative minds to cultivate their talents and showcase it to the rest of the world. Our passion is to help create a community for esports enthusiast where they can learn and grow, and offer a space for recreation, cultural and sporting activities. At NEA, we offer a place for gaming enthusiast to help them bring out the best of their abilities, and create more opportunities for them to display their talent through competitions.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end teb pane-->
+                            
+                            <div class="tab-pane fade" id="pills-smart" role="tabpanel" aria-labelledby="pills-smart-tab">
+                                <div class="card blog blog-image blog-primary shadow rounded overflow-hidden ">
+                                    <div class="card-img">
+                                        <img src="{% static 'images/blog/11.jpg' %}" class="img-fluid" alt="">
+                                        <div class="card-overlay"></div>
+
+                                        <div class="position-absolute top-0 start-0 mt-3 ms-4">
+                                            <a href="javascript:void(0)" class="badge bg-light">Presidents Messeage</a>
+                                        </div>
+                                    </div>
+                                    <div class="content px-4">
+                                        <a href="blog-detail-one.html" class="h5 title d-block mb-0 text-white"></a>
+
+                                        <div class="d-flex author align-items-center mt-3">
+                                            <p class="para-desc text-white-50 mb-0">As the President of the Naga Esports Association, I am happy to lead the state’s gamers as the state is slowly gaining momentum in the esports scene with so much potential amongst them. Games such as Pubg, COD, Valorant, Dota, etc., have implemented themselves into the gaming scene and has gained popularity among the community with thousands of youths gathering together to battle it out.</p>
+                                        </div>
+                                    </div>
+                                </div>                       
+                            </div><!--end teb pane-->
+
+                            <div class="tab-pane fade" id="pills-apps" role="tabpanel" aria-labelledby="pills-apps-tab">
+                                <div class="card blog blog-image blog-primary shadow rounded overflow-hidden">
+                                    <div class="card-img">
+                                        <img src="{% static 'images/blog/12.jpg' %}" class="img-fluid" alt="">
+                                        <div class="card-overlay"></div>
+
+                                        <div class="position-absolute top-0 start-0 mt-3 ms-4">
+                                            <a href="javascript:void(0)" class="badge bg-light">Esports in Nagaland</a>
+                                        </div>
+                                    </div>
+                                    <div class="content px-4">
+                                        <a href="blog-detail-one.html" class="h5 title d-block mb-0 text-white"></a>
+
+                                        <div class="d-flex author align-items-center mt-3">
+                                            <p class="para-desc text-white-50 mb-0">Although gaming as a profession has not fully been accepted as a proper career in the state, with state of the art infrastructure and support, Nagaland can see itself moving up in the gaming community and might be on par with other professional gamers from countries which produce the best esports teams such as Korea, and Malaysia. A team called The Zerg was also formed and qualified for the Pubg Mobile India tournament and made it to the top 16, securing themselves a spot in the tournament.  Not only forming proper teams, but with streaming gaining popularity worldwide, there are gamers who stream themselves gaming on platforms such as Twitch or Youtube, and earn a good amount of revenue. A good, proper gamer can amass a good fanbase and this allows for them to gain recognition worldwide. Mobile games have also taken the community by storm and have become easily accessible by anyone with an interest in the gaming world. The age of internet has truly helped this generation follow a career which they enjoy, and gives them access to jobs which does not require them to sit at an office desk .</p>
+                                        </div>
+                                    </div>
+                                </div>                       
+                            </div><!--end teb pane-->
+                        </div><!--end tab content-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End feature -->
+
+         <!-- Counter Start -->
+        <div class="section-title mb-4 pb-2 text-center">
+                            <h4 class="title fw-semibold mt-2 mb-3">Esports in numbers</h4>
+                        </div>
+        <section class="section bg-primary" data-jarallax='{"speed": 0.5}' style="background: url('/static/images/cta04.png') center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <div class="counter-box position-relative text-center">
+                            <h2 class="mb-0 display-1 fw-bold title-dark text-white mt-2 opacity-3"><span class="counter-value" data-target="1000">3</span></h2>
+                            <span class="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">MN Market Share in 2021</span>
+                        </div><!--end counter box-->
+                    </div><!--end col-->
+
+                    <div class="col-md-3 col-6">
+                        <div class="counter-box position-relative text-center">
+                            <h2 class="mb-0 display-1 fw-bold title-dark text-white mt-2 opacity-3"><span class="counter-value" data-target="100">1</span></h2>
+                            <span class="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">MN Online Indian gamers in 2021</span>
+                        </div><!--end counter box-->
+                    </div><!--end col-->
+
+                    <div class="col-md-3 col-6">
+                        <div class="counter-box position-relative text-center">
+                            <h2 class="mb-0 display-1 fw-bold title-dark text-white mt-2 opacity-3"><span class="counter-value" data-target="700">0</span></h2>
+                            <span class="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">MN Global fans in 2021</span>
+                        </div><!--end counter box-->
+                    </div><!--end col-->
+
+                    <div class="col-md-3 col-6">
+                        <div class="counter-box position-relative text-center">
+                            <h2 class="mb-0 display-1 fw-bold title-dark text-white mt-2 opacity-3"><span class="counter-value" data-target="600">3</span></h2>
+                            <span class="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">MN Viewership in 2021</span>
+                        </div><!--end counter box-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Counter End -->
+        
+       <!-- Start Process -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title mb-4 pb-2 text-center">
+                            <h4 class="title mb-3">Steps to become member</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">How do I become a member of NAGA ESPORTS ASSOCIATION!</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-md-4 mt-4 pt-2">
+                        <div class="features feature-primary process-bar text-center border-0 px-lg-4 position-relative">
+                            <div class="fea-icon bg-soft rounded-circle shadow icon h5 mb-0 mx-auto">1</div>
+
+                            <div class="content mt-4 pt-2">
+                                <h4>Reach out to us</h4>
+                                <p class="text-muted mb-0 mt-3">To become a member send us your queries at director@nagaesports.in</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-md-4 mt-4 pt-2">
+                        <div class="features feature-primary process-bar text-center border-0 px-lg-4 position-relative">
+                            <div class="fea-icon bg-soft rounded-circle shadow icon h5 mb-0 mx-auto">2</div>
+
+                            <div class="content mt-4 pt-2">
+                                <h4>Application Review</h4>
+                                <p class="text-muted mb-0 mt-3">We will review your membership application and get back to you in one week for more details.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-md-4 mt-4 pt-2">
+                        <div class="features feature-primary text-center border-0 px-lg-4 position-relative">
+                            <div class="fea-icon bg-soft rounded-circle shadow icon h5 mb-0 mx-auto">3</div>
+                            
+
+                            <div class="content mt-4 pt-2">
+                                <div id="gallery01"></div>
+                                <h4>Membership Accepted</h4>
+                                <p class="text-muted mb-0 mt-3">Once your application is accepted you are entitled to receive membership benefits and updates on new events and tournaments.</p>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->   
+            </div><!--end container-->
+            <br><br>
+                </section>
+
+
+                <!-- Start -->
+        <section class="section">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="filters-group-wrap text-center">
+                            <div class="filters-group">
+                                <ul class="container-filter mb-0 categories-filter list-unstyled filter-options">
+                                    <li class="list-inline-item categories position-relative active" data-group="all">All</li>
+                                    <li class="list-inline-item categories position-relative" data-group="branding">Branding</li>
+                                    <li class="list-inline-item categories position-relative" data-group="designing">Designing</li>
+                                    <li class="list-inline-item categories position-relative" data-group="photography">Photography</li>
+                                    <li class="list-inline-item categories position-relative" data-group="development">Development</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div id="grid" class="row mt-4">
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["branding"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/01.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/01.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Leaf and Letter</a>
+                                <small class="text-muted fw-normal mb-0">Branding</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["designing"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/02.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/02.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Papers</a>
+                                <small class="text-muted fw-normal mb-0">Designing</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["photography"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/03.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/03.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Headphones</a>
+                                <small class="text-muted fw-normal mb-0">Photography</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["development"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/04.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/04.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Projects</a>
+                                <small class="text-muted fw-normal mb-0">Development</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["branding"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/05.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/05.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Cup of Coffee</a>
+                                <small class="text-muted fw-normal mb-0">Branding</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["designing"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/06.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/06.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Pen and Books</a>
+                                <small class="text-muted fw-normal mb-0">Designing</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["photography"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/07.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/07.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Strawberry</a>
+                                <small class="text-muted fw-normal mb-0">Photography</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["development"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/08.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/08.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Leaf and Books</a>
+                                <small class="text-muted fw-normal mb-0">Development</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["branding"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/09.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/09.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Cactus Plant</a>
+                                <small class="text-muted fw-normal mb-0">Branding</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["photography"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/10.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/10.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Yellow Bag</a>
+                                <small class="text-muted fw-normal mb-0">Photography</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["designing"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/11.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/11.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Teapot Table</a>
+                                <small class="text-muted fw-normal mb-0">Designing</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-4 col-12 spacing picture-item" data-groups='["development"]'>
+                        <div class="card portfolio portfolio-classic portfolio-primary rounded overflow-hidden">
+                            <div class="card-img position-relative">
+                                <img src="{% static 'images/portfolio/12.jpg' %}" class="img-fluid" alt="">
+                                <div class="card-overlay"></div>
+
+                                <div class="pop-icon">
+                                    <a href="{% static 'images/portfolio/12.jpg' %}" class="btn btn-pills btn-icon lightbox"><i class="uil uil-camera"></i></a>
+                                </div>
+                            </div>
+                            <div class="content text-center p-3">
+                                <a href="portfolio-detail-one.html" class="text-dark h6 mb-0 d-block title">The Orange</a>
+                                <small class="text-muted fw-normal mb-0">Development</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                <div id="contact01"></div>
+
+                <!-- <div class="row">
+                    <div class="col-12 mt-4 pt-2">
+                        <ul class="pagination justify-content-center mb-0">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true"><i class="mdi mdi-chevron-left mdi-18px"></i></span>
+                                </a>
+                            </li>
+                            <div id="contact01"></div>
+                            <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true"><i class="mdi mdi-chevron-right mdi-18px"></i></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> --><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card border-0 text-center features feature-clean bg-transparent">
+                            <div class="icons text-primary text-center mx-auto">
+                                <i class="uil uil-phone d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="content mt-3">
+                                <h5 class="footer-head">Phone</h5>
+                                <p class="text-muted">Start working with Starty that can provide everything</p>
+                                <a href="tel:+91 9436233333" class="text-foot">+91 9436233333 | +913862237361</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="card border-0 text-center features feature-clean bg-transparent">
+                            <div class="icons text-primary text-center mx-auto">
+                                <i class="uil uil-envelope d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="content mt-3">
+                                <h5 class="footer-head">Email</h5>
+                                <p class="text-muted">Start working with Starty that can provide everything</p>
+                                <a href="mailto:director@nagaesports.in " class="text-foot">director@nagaesports.in</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-md-4 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="card border-0 text-center features feature-clean bg-transparent">
+                            <div class="icons text-primary text-center mx-auto">
+                                <i class="uil uil-map-marker d-block rounded h3 mb-0"></i>
+                            </div>
+                            <div class="content mt-3" id="scroll1">
+                                <h5 class="footer-head">Location</h5>
+                                <p class="text-muted">Ace Apartment, 1G First Floor, Church Road Dimapur, Nagaland </p>
+                                <a href="https://maps.google.com/maps?q=Ace%20Apartment,%20Nyamo%20Lotha%20Rd,%20N.S.T.%20Colony,%20Dimapur,%20Nagaland%20797112&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                                    data-type="iframe" class="video-play-icon text-foot lightbox">View on Google map</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title mb-5 pb-2 text-center">
+                            <h4 class="title mb-3" >Thanks for being awesome!!</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">
+
+We have received your message and would like to thank you for writing to us. If your inquiry is urgent, please use the telephone number listed above to talk to one of our staff members.<br> 
+
+Otherwise, we will reply by email as soon as possible.<br>
+
+Talk to you soon</p>
+                        </div>
+                      
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <br>
+            <br>
+
+
+
+
+
+<!-- Footer Start -->
+        <footer class="footer bg-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-60">
+                            <div class="row">
+                                <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                                    <a href="#" class="logo-footer">
+                                        <img src="{% static 'images/logo-light.png' %}" height="150" alt="">
+                                    </a>
+                                   
+                                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                                    </ul><!--end icon-->
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-3 col-md-5 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h6 class="footer-head">About Us</h6>
+                                     <p class="mt-4">Naga esports association is dedicated to helping young minds create ideas with emphasis on esports. Founded in year 2021, Naga Esports Association has a strong will to form a platform for creative minds to cultivate their talents and showcase it to the rest of the world.</p>
+                                </div><!--end col-->
+
+                                 <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0" style="margin-left: 150px;">
+                                    <h6 class="footer-head">Company</h6>
+                                    <ul class="list-unstyled footer-list mt-4">
+                                        <li><a href="#about01" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> About us</a></li>
+                                        <li><a href="#president01" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> President Messeage</a></li>
+                                        <li><a href="#gallery01" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Gallery</a></li>
+                                        <li><a href="#contact01" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Contact Us</a></li>
+                                    </ul>
+                                </div><!--end col-->
+                                
+
+
+
+            <div class="footer-py-30 footer-bar bg-footer">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <div class="text-center">
+                                <p class="mb-0 text-muted"><script>document.write(new Date().getFullYear())</script> © NAGA ESPORTS With <i class="mdi mdi-heart text-danger"></i> by <a href="https://infinityxlab.com/" target="_blank" class="text-reset">Infinity Creative Lab</a>.</p>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+        </footer><!--end footer-->
+        <!-- End -->
+
+        <!-- Back to top -->
+        <a href="javascript:void(0)" onclick="topFunction()" id="back-to-top" class="back-to-top rounded-pill"><i class="mdi mdi-arrow-up"></i></a>
+        <!-- Back to top -->
+        
+        <!-- javascript -->
+        <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+        <script src="{% static 'js/tiny-slider.js' %}"></script>
+        <script src="{% static 'js/tobii.min.js' %}"></script>
+        <script src="{% static 'js/parallax.js' %}"></script>
+        <script src="{% static 'js/feather.min.js' %}"></script>
+        <!-- Main Js -->
+        <script src="{% static 'js/plugins.init.js' %}"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="{% static 'js/app.js' %}"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>
